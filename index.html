@@ -9,7 +9,7 @@
 </head>
 <body>
     <form class="quick-reservation">
-   
+
         <div class="container">
            <header class="quick-reservation__header">
               <h2 class="title">
@@ -20,7 +20,7 @@
                  <span></span>
               </div>
            </header>
-           
+
            <div class="quick-reservation__form">
               <section class="form__content">
                  <div class="row-wrapper">
@@ -48,88 +48,62 @@
                           <option value="hide">BTS SN 2</option>
                           <option value="">BTS CIEL 1</option>
                        </select>
-                    </div>         
+                    </div>
+                    <div class="ele children">
+                     <label for="marque">Marque</label>
+                     <select name="Marque" id="Marque">
+                        <option value="hidden"></option>
+                        <option value="HyperX">HyperX</option>
+                        <option value="Aegis">Aegis</option>
+                        <option value="Hynix Korea">Hynix Korea</option>
+                     </select>
+                  </div>
                  </div>
                  <div class="row-wrapper">
-                    <div class="ele adults">
-                       <label for="title">Title</label>
-                       <select name="title" id="title">
-                          <option value="hide">Title</option>
-                          <option value="">Mr.</option>
-                          <option value="">Mrs.</option>
-                       </select>
-                    </div>
                     <div class="ele first-name">
-                       <label for="firstName">First Name</label>
-                       <input type="text" value="" placeholder="First Name" id="firstName">
+                       <label for="firstName">Prénom</label>
+                       <input type="text" value="" placeholder="Prénom" id="firstName">
                     </div>
                     <div class="ele last-name">
-                       <label for="lastName">Last Name</label>
-                       <input type="text" value="" placeholder="Last Name" id="lastName">
-                    </div>    
-                 </div>
-                 <div class="row-wrapper">
-                    <div class="ele email-address">
-                       <label for="emailAddress">Email Address</label>
-                       <input type="email" value="" placeholder="Enter Email" id="emailAddress">
+                       <label for="lastName">Nom</label>
+                       <input type="text" value="" placeholder="Nom" id="lastName">
                     </div>
-                    <div class="ele phone-number">
-                       <label for="phoneNumber">Phone Number</label>
-                       <input type="text" value="" placeholder="Enter Phone Number" id="phoneNumber">
-                    </div> 
-                    
                  </div>
-                 
                  <div class="row-wrapper more-options">
-        
+
                     <label for="single" class="radio">
                        <input type="radio" name="plan" id="single" class="hidden"/>
-                       <span class="label"></span>Single
+                       <span class="label"></span>Je confirme effectuer le paiement lors de la réception du panier
                     </label>
-                    
-                    <label for="group" class="radio">
-                       <input type="radio" name="plan" id="group" class="hidden"/>
-                       <span class="label"></span>Group
-                    </label>
-                    
-                    <label for="business" class="radio">
-                       <input type="radio" name="plan" id="business" class="hidden"/>
-                       <span class="label"></span>Business
-                    </label>
-                    
+
+
                  </div>
-                 
+
               </section>
            </div>
-           
+
            <div class="reservation-info">
               <div class="ele data">
-                 <h4 class="data__head">Room Type</h4>
-                 <p class="data__description">Deluxe</p>
+                 <h4 class="data__head">Date</h4>
+                 <p class="data__description">08/09/2023</p>
               </div>
               <div class="ele data">
-                 <h4 class="data__head">Duration</h4>
-                 <p class="data__description">May 28 - Jun 2</p>
-              </div>
-              <div class="ele data">
-                 <h4 class="data__head">Price</h4>
-                 <p class="data__description">$45/night<br> Total $270</p>
+                 <h4 class="data__head">Total</h4>
+                 <p class="data__description">0€</p>
               </div>
            </div>
-           
+
            <footer class="form__footer">
               <div class="footer-wrapper">
-                 <input type="submit" value="Tempt Reserve" class="">
-                 <input type="submit" value="Reserve" class="">
-                 <input type="button" value="Check-In" class="">
+               <input style="margin-right: 150px;" type="submit" value="Tempt Reserve" class="">
               </div>
            </footer>
         </div>
-           
+
         </form>
-        
+
         <p class="after" style="display: none; color: #777; font-weight: 200;">Reload the browser window everytime you close the reservation form to show up again.</p>
-        
-        
+
+
 </body>
 </html>
